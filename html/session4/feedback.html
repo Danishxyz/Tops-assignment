@@ -8,44 +8,41 @@
 <body>
      <h1>Movie Booking Feedback</h1>
 
-    <form method="post" >
+    <form>
 
-        <h2>Rate your experience:</h2>
+    <h3>Rate your experience:</h3>
 
-        <input type="radio" value="1">
-        <label for="one">1 Star</label>
+    <input type="radio" id="one" name="rating" value="1">
+    <label for="one">1 Star</label>
 
-        <input type="radio" value="2">
-        <label for="two">2 Stars</label>
+    <input type="radio" id="two" name="rating" value="2">
+    <label for="two">2 Stars</label>
 
-        <input type="radio"  value="3">
-        <label for="three">3 Stars</label>
+    <input type="radio" id="three" name="rating" value="3">
+    <label for="three">3 Stars</label>
 
-        <input type="radio" value="4">
-        <label for="four">4 Stars</label>
+    <input type="radio" id="four" name="rating" value="4">
+    <label for="four">4 Stars</label>
 
-        <input type="radio" value="5">
-        <label for="five">5 Stars</label>
+    <input type="radio" id="five" name="rating" value="5">
+    <label for="five">5 Stars</label>
 
-        <h3>Features Used:</h3>
+    <h3>Features Used:</h3>
 
-        <input type="checkbox" value="seat-selection">
-        <label for="seat">Seat Selection</label>
+    <input type="checkbox" id="seat" name="features" value="seat-selection">
+    <label for="seat">Seat Selection</label>
 
-        <br>
+    <input type="checkbox" id="food" name="features" value="food-order">
+    <label for="food">Food Order</label>
 
-        <input type="checkbox" value="food-order">
-        <label for="food">Food Order</label>
+    <input type="checkbox" id="payment" name="features" value="payment">
+    <label for="payment">Payment</label>
 
-        <br>
+    <br><br>
 
-        <input type="checkbox" value="payment">
-        <label for="payment">Payment</label>
+    <input type="submit" value="Submit">
 
-        <br><br>
-
-        <input type="submit" value="Submit">
-
-    </form>
+</form>
 </body>
 </html>
+
