@@ -1,0 +1,14 @@
+.banner{
+    background-image: linear-gradient(to right, orange, red);
+    color: white;    
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+}

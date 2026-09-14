@@ -1,0 +1,17 @@
+.abc{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+#rgb{
+    background-color: rgb(250, 77, 88);
+}
+
+#hex{
+    background-color: #0000db;
+}
+
+#named{
+    background-color: orange;
+}
