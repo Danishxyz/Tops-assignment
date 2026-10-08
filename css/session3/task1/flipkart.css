@@ -1,0 +1,16 @@
+body{
+    margin: 20px;
+    padding: 20px;
+}
+
+.main{
+    display: flex;
+    gap: 10px;
+}
+
+.main1{
+    height: 150px;
+    width: 100px;
+    background-color: orange;
+    border: 2px solid blue;
+}

@@ -1,0 +1,21 @@
+.main{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.ptsd{    
+    height: 100px;
+    width: 100px;
+   
+    border: 2px solid black ;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
