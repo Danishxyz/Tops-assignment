@@ -1,0 +1,17 @@
+.profile {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(190, 171, 171);
+            border-radius: 50%;
+        }
+
+        .badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: green;
+            color: white;
+            padding: 5px;
+            border-radius: 50%;
+        }
