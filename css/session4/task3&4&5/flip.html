@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flip.css">
+</head>
+<body>
+
+    <header>
+        <h1>Flipkart</h1>
+    </header>
+
+    <div class="container clearfix">
+
+        <div class="products">
+            <h2>Products</h2>
+
+            <div class="product">
+                <h3>Smartphone</h3>
+                <p>Brand: Samsung</p>
+                <p>Price: ₹15,999</p>
+                <p>Feature: 128 GB Storage, 8 GB RAM</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <h3>Laptop</h3>
+                <p>Brand: MSI</p>
+                <p>Price: ₹45,999</p>
+                <p>Feature: 16 GB RAM, 512 GB STorage</p>
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+
+        <div class="cart">
+            <h2>My Cart</h2>
+            <p>Smartphone - ₹15,999</p>
+            
+            <hr>
+            <h3>Total: ₹15,999</h3>
+            <button>Place Order</button>
+
+            <h3>Delivery Details</h3>
+            <p>Delivery: Free</p>
+           
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!-- 1. Floats were originally designed to wrap text around images, so using them for complete page layouts can cause issues like parent container collapsing and requiring clearfix.
+
+2. Flexbox is better for modern layouts because it aligns elements easily and handles spacing and sizing with less CSS.
+
+3. For our Flipkart layout, we can use display: flex; on .container instead of float: left and float: right.
+
+4. Example: .container { display: flex; justify-content: space-between; } places the products and cart side by side without needing clearfix. -->

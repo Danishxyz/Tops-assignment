@@ -1,0 +1,32 @@
+
+
+.navbar{
+    background-color: lightblue;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.logo{
+    display: inline-block;
+    width: 150px;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(255, 0, 187);
+}
+
+.menu{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+}
+
+.menu:hover{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
