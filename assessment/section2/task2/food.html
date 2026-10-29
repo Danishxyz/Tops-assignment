@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Booking Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>Food Order Booking Form</h1>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName"
+                   name="customerName" required>
+
+            <br><br>
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" name="address"
+                      required></textarea>
+
+            <br><br>
+
+            <label for="deliveryTime">Delivery Time:</label>
+            <select id="deliveryTime" name="deliveryTime">
+                <option value="9-12">9 AM - 12 PM</option>
+                <option value="12-3">12 PM - 3 PM</option>
+                <option value="3-6">3 PM - 6 PM</option>
+            </select>
+
+            <br><br>
+
+            <input type="checkbox" id="leaveAtDoor"
+                   name="leaveAtDoor">
+            <label for="leaveAtDoor">
+                Leave at door if not available
+            </label>
+
+            <br><br>
+
+            <button type="submit">Place Order</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Food Order Service. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

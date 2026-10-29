@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: blue;
+    
+}
+
+header p {
+    color: gray;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.restaurant-card {
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.restaurant-card h2 {
+    color: black;
+}
+
+.restaurant-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.restaurant-card button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(236, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.restaurant-card button:hover {
+    background-color: darkred;
+}
+
+@media (max-width: 768px) {
+    .restaurant-card {
+        flex-basis: calc((100% - 20px) / 2);
+    }
+}

@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-card {
+    background-color: white;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.menu-card h2 {
+    margin-bottom: 3px;
+}
+
+.menu-card p {
+    color: gray;
+    margin-bottom: 3px;
+}
+
+.menu-card .price {
+    font-weight: bold;
+    color: green;
+}
+
+.menu-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
